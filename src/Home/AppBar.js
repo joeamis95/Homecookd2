@@ -26,7 +26,7 @@ function ButtonAppBar(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" >
         <Toolbar>
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
             <MenuIcon />
@@ -34,9 +34,7 @@ function ButtonAppBar(props) {
           <Typography variant="h6" color="inherit" className={classes.grow}>
             News
           </Typography>
-          <Link to="/SignUpPage">
-          <Button color="inherit">Login</Button>
-          </Link>
+          <Button color="inherit" href='/SignUpPage'>Login</Button>
           <Button color="inherit">Sign Up</Button>
         </Toolbar>
       </AppBar>
