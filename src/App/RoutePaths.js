@@ -1,7 +1,7 @@
 import React from 'react'
 import history from '../Utils/history';
 import App from '../App.js';
-import SignUpPage from '../Login/SignUpPage.js';
+import FullWidthTabs from '../Login/BuyerSellerRegistry.js';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 
@@ -10,7 +10,7 @@ const RoutePaths = () => (
     <Switch>
     <Route exact path = "/" component = {App}/>
 
-    <Route path = '/SignUpPage' component = {SignUpPage}/>
+    <Route path = '/BuyerSellerRegistry' component = {FullWidthTabs}/>
 
 
     </Switch>
