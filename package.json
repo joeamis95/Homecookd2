@@ -13,7 +13,7 @@
     "grommet": "^2.7.1",
     "grommet-icons": "^4.2.0",
     "history": "^4.9.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.23",
     "material-ui": "^1.0.0-beta.47",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
